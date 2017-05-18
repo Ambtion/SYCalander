@@ -1,0 +1,30 @@
+{
+  "name": "SYCalander",
+  "version": "0.1.0",
+  "summary": "Calander UI",
+  "homepage": "https://github.com/Ambtion/SYCalander",
+  "license": "MIT",
+  "authors": {
+    "ambtion": "kequ1988@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ambtion/SYCalander.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "public_header_files": "SYCalander/Classes/*.h",
+  "source_files": [
+    "SYCalander",
+    "SYCalander/Classes/*.{h,m}"
+  ],
+  "dependencies": {
+    "Masonry": [
+      "1.0.2"
+    ],
+    "UIViewAdditions": [
+      "1.0.0"
+    ]
+  },
+  "requires_arc": true
+}

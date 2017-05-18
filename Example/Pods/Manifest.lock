@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.0.2)
+  - SYCalander (0.1.0):
+    - Masonry (= 1.0.2)
+    - UIViewAdditions (= 1.0.0)
+  - UIViewAdditions (1.0.0)
+
+DEPENDENCIES:
+  - SYCalander (from `../`)
+
+EXTERNAL SOURCES:
+  SYCalander:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SYCalander: 828bfb0ec5a810ac73a24ce599d98a0340b72436
+  UIViewAdditions: b35c38dd787949168f56c429cd341a55fbaba917
+
+PODFILE CHECKSUM: 0ffd4ade6a02d6bf1e8339c8937e0c5c78a9abd0
+
+COCOAPODS: 1.2.1

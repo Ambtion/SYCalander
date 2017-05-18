@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SYCalander_Example' do
+  pod 'SYCalander', :path => '../'
+
+  target 'SYCalander_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
