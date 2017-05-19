@@ -11,8 +11,10 @@ Pod::Spec.new do |s|
   s.source       		 = { :git => 'https://github.com/Ambtion/SYCalander.git'}
   s.platform    		 = 	:ios, "8.0"
 
-  s.public_header_files  = 'SYCalander/Classes/*.h'
-  s.source_files   		 = "SYCalander", "SYCalander/Classes/*.{h,m}"
+  s.public_header_files  = 'SYCalander/*.h'
+  s.source_files   		 = "SYCalander", "SYCalander/*.{h,m}"
+  s.resources 			 = 'SYCalander/Resource/*.png'
+
   s.dependency 				"Masonry", "1.0.2"
   s.dependency 				"UIViewAdditions","1.0.0"
   s.framework    = 'UIKit'

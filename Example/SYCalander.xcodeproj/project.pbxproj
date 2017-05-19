@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8946F84929AA3CD2EB426925 /* Pods_SYCalander_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D5EC9E664D440646F5CED9 /* Pods_SYCalander_Tests.framework */; };
 		B962844F6507706434751258 /* Pods_SYCalander_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8488E9F21873CF87614A24 /* Pods_SYCalander_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +39,6 @@
 		0C44579BD59A041A9A8E24B3 /* Pods-SYCalander_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYCalander_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYCalander_Example/Pods-SYCalander_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1BE28B6304F1DC60651F1AA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1D8488E9F21873CF87614A24 /* Pods_SYCalander_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYCalander_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32F51D02B82DE1FBC69284B9 /* Pods-SYCalander_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYCalander_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYCalander_Tests/Pods-SYCalander_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5471EC3A18B69EDCC411F799 /* Pods-SYCalander_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYCalander_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYCalander_Tests/Pods-SYCalander_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SYCalander_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYCalander_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				8946F84929AA3CD2EB426925 /* Pods_SYCalander_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +96,6 @@
 			children = (
 				B0A01E7C21735EB5C788121C /* Pods-SYCalander_Example.debug.xcconfig */,
 				0C44579BD59A041A9A8E24B3 /* Pods-SYCalander_Example.release.xcconfig */,
-				5471EC3A18B69EDCC411F799 /* Pods-SYCalander_Tests.debug.xcconfig */,
-				32F51D02B82DE1FBC69284B9 /* Pods-SYCalander_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +217,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SYCalander_Tests" */;
 			buildPhases = (
-				E7AE0EF9E01D5E5376D6718D /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				5BC9BA3A2AF2D6E161936EE5 /* [CP] Embed Pods Frameworks */,
-				0A6A1B2E35BC6A9C9430F929 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,21 +292,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A6A1B2E35BC6A9C9430F929 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYCalander_Tests/Pods-SYCalander_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3A40FEF67FB09011C709F385 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,21 +305,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5BC9BA3A2AF2D6E161936EE5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYCalander_Tests/Pods-SYCalander_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		70EEBE30D0087AD1D39AAD0F /* [CP] Embed Pods Frameworks */ = {
@@ -374,21 +335,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYCalander_Example/Pods-SYCalander_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E7AE0EF9E01D5E5376D6718D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -531,6 +477,7 @@
 				DEVELOPMENT_TEAM = G254S26JY5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYCalander/SYCalander-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/../SYCalander/**";
 				INFOPLIST_FILE = "SYCalander/SYCalander-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -549,6 +496,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYCalander/SYCalander-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/../SYCalander/**";
 				INFOPLIST_FILE = "SYCalander/SYCalander-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -560,7 +508,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5471EC3A18B69EDCC411F799 /* Pods-SYCalander_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -584,7 +531,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32F51D02B82DE1FBC69284B9 /* Pods-SYCalander_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,9 +1,7 @@
 //
 //  BMHCTabCanlenderCell.h
-//  basicmap
 //
-//  Created by quke on 2016/11/22.
-//  Copyright © 2016年 baidu. All rights reserved.
+//  Created by Linjunhou on 2016/11/21.
 //
 
 #import <UIKit/UIKit.h>

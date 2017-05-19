@@ -9,7 +9,8 @@
 #import "SYViewController.h"
 #import "BMHCCalenderCondtionView.h"
 
-@interface SYViewController ()
+@interface SYViewController ()<BMHCCalenderCondtionViewDelegate,BMHCCalenderCondtionViewDateSource>
+
 @property(nonatomic,strong)BMHCCalenderCondtionView * dateConditonView;
 
 @end
@@ -19,13 +20,37 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+   
     
-    self.dateConditonView = [[BMHCCalenderCondtionView alloc] initWithFrame:CGRectMake(0, NAVIGATION_BAR_HEIGHT, self.view.width, headViewHeigth)];
+    self.view.backgroundColor = [UIColor redColor];
+    
+    self.dateConditonView = [[BMHCCalenderCondtionView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 64)];
     self.dateConditonView.delegate = self;
     self.dateConditonView.dateSource = self;
     [self.view addSubview:self.dateConditonView];
-    [self.dateConditonView setHidden:YES];
-
+    [self seltedContionViewTodate:[NSDate date]];
 }
+
+- (void)seltedContionViewTodate:(NSDate *)date
+{
+    NSDateComponents *dateComp = [self.dateConditonView.commonCalendar components:NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay|NSCalendarUnitWeekday fromDate:date];
+    [self.dateConditonView seletedContentDateWithYear:dateComp.year month:dateComp.month day:dateComp.day];
+}
+
+- (BOOL)hcCalenderConditionView:(BMHCCalenderCondtionView *)pickerView hasTripWhenInDate:(BMTHCalenderModel *)model
+{
+    return YES;
+}
+
+- (BOOL)hcCalenderConditionView:(BMHCCalenderCondtionView *)pickerView hasForceTodayWhenInDate:(BMTHCalenderModel *)model
+{
+    return NO;
+}
+
+- (void)hccalenderCondtionView:(BMHCCalenderCondtionView *)calenderCondtionView DidSeltedTime:(NSInteger)year month:(NSInteger)month day:(NSInteger)day
+{
+    
+}
+
 
 @end

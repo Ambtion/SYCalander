@@ -1,9 +1,7 @@
 //
 //  BMHCCalenderHeadView.m
-//  basicmap
 //
-//  Created by quke on 2016/11/21.
-//  Copyright © 2016年 baidu. All rights reserved.
+//  Created by Linjunhou on 2016/11/21.
 //
 
 #import "BMHCCalenderHeadView.h"
@@ -73,7 +71,6 @@
     
     UIButton *nexButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [nexButton setImage:[UIImage imageNamed:@"next_day_normal"] forState:UIControlStateNormal];
-//    [nexButton setImage:[UIImage imageNamed:@"next_day_press"] forState:UIControlStateHighlighted];
     [nexButton addTarget:self action:@selector(onNext:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:nexButton];
     

@@ -1,9 +1,7 @@
 //
 //  BMTHCalenderModel.m
-//  basicmap
 //
-//  Created by quke on 2016/11/18.
-//  Copyright © 2016年 baidu. All rights reserved.
+//  Created by Linjunhou on 2016/11/21.
 //
 
 #import "BMTHCalenderModel.h"
