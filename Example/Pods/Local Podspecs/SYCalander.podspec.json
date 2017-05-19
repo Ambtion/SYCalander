@@ -26,5 +26,6 @@
       "1.0.0"
     ]
   },
+  "frameworks": "UIKit",
   "requires_arc": true
 }

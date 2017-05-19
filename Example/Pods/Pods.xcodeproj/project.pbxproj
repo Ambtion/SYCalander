@@ -10,11 +10,13 @@
 		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB677D84B1E320D4C1ED5552D48DD52 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1F488A9618B30A7D75EF7672B55131 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AAB9D68333788E9A59DBFD65CEA0B8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DAAF6E8A5C03A518B693DCE8897B32F /* SYTHCalenderTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E01EDD98888A181C3C8C1526371757F2 /* SYTHCalenderTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8878780DBEA99819D5158FE4674B7501 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD069816259BC79FE3127170F5947A0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		109A568470DB8FDDCC41C89C6E421B46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7B62C26FE7AFAE5933B061BDAE91B1 /* Foundation.framework */; };
-		11D1CBB96829963DAF66794A2E84904C /* UIViewAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060BAF219A661DE0ECD7496EB0547643 /* UIViewAdditions.framework */; };
+		1A1960DAC371F3609AD2B131A7E3E3AB /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3650274D94E72EBD7DB2A5ECC92A8BB0 /* Masonry.framework */; };
 		24DD747A9FD8627B58BFC6D6CE924306 /* UIView+RSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5A10C2709ADC2EF5831517A837F9C /* UIView+RSAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		279A3A90AAA747CE7AA7636B0E01D005 /* SYCalander-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF60062581A0C224100C90C4DA748B8 /* SYCalander-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFF7441D9B663A6A3D6F2C6F14AD95F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3017E23753A433B0B712A0D79F476479 /* Pods-SYCalander_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3707C1864FBD3ACBF6DDC7BC0CD8D344 /* Pods-SYCalander_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36CD0ED7280B8D35AB00D36C40512216 /* Pods-SYCalander_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A1E3D9BFEFC9D912646EF45755B04 /* Pods-SYCalander_Tests-dummy.m */; };
@@ -23,10 +25,8 @@
 		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1ECBB6A990E0F868C016961D6E172DC /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49EA6AE765CB1BA588F56E707BF0DA5C /* UIViewAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98185A75054C761B5812616E3FA6BA74 /* UIViewAdditions-dummy.m */; };
 		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C376B26B46743A210480355C4AA4E14 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EEF6CD76FCF178BF4E0640D32756D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7B62C26FE7AFAE5933B061BDAE91B1 /* Foundation.framework */; };
 		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8060A5B4E6E8FD87D8656816A894B8 /* MASCompositeConstraint.m */; };
 		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 79684C9D6C932A046F24F1ED1DE6AF92 /* MASConstraint.m */; };
-		5F04BE487F0A70FD9647E1D013B740C6 /* SYCalander-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2ED460E2BA5485BD45C49F20E620C /* SYCalander-dummy.m */; };
 		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 793895495A3D2081B26019FD9FD08144 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE9315C93A5840C7F8917A78F1808D /* MASLayoutConstraint.m */; };
 		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 22035653885E0F465E310ED7AB73752D /* MASConstraintMaker.m */; };
@@ -40,19 +40,19 @@
 		8CE2B71533D44199ECBC685D5CCF8D50 /* Pods-SYCalander_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD85E796F19CEF6BD4AD2DFE74D8EF4 /* Pods-SYCalander_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EF1073034069017C890869B44874B16 /* UIView+RSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D258D9F35295339838591FB46E623FB /* UIView+RSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F73F7D0A16CC0BCB48D299D8F682785 /* Masonry-dummy.m */; };
+		A3A79DB137FD5CC90DAADA091E72CD5E /* UIViewAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060BAF219A661DE0ECD7496EB0547643 /* UIViewAdditions.framework */; };
 		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2782451ED63814A1672BDF0074CAA012 /* MASViewAttribute.m */; };
 		AA468AB0F2F6D75C9425875AA575AC52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7B62C26FE7AFAE5933B061BDAE91B1 /* Foundation.framework */; };
 		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5086EB692BE9D407297E5BF8E083E67C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9583E58D578C8A53AF86DF9E0171467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F576806803F1E19543D810ECDE03DD /* UIKit.framework */; };
 		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D248DA47FFBE1C164BB0201267689DF1 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C628891EB48B56B36AC9CEBEFCC57101 /* SYCalander-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF60062581A0C224100C90C4DA748B8 /* SYCalander-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E3E84A1113BDA26FBD8EC837C05428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7B62C26FE7AFAE5933B061BDAE91B1 /* Foundation.framework */; };
 		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F01699F013CF26D03A253F11A1DF71D7 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB6A4D26D199951871C4E086733129E /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCB263C2B7897EC1372C32DDFF3FE199 /* SYComonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 30AFFB5B54A485436EEC7162C1775E1F /* SYComonDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D39739B5ED2DBA7604D606BDC6CEB2CF /* Pods-SYCalander_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB923368C8F8D43017F72C892E3DBE /* Pods-SYCalander_Example-dummy.m */; };
-		D67DD4ACF5881DBE029A52FB22F9E6E8 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3650274D94E72EBD7DB2A5ECC92A8BB0 /* Masonry.framework */; };
 		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2E5D6884B5E6A5430E51F6AAA4F752 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E12AB7051ECDADC900D48593 /* SYTHCalenderTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E12AB7031ECDADC900D48593 /* SYTHCalenderTool.h */; };
-		E12AB7061ECDADC900D48593 /* SYTHCalenderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E12AB7041ECDADC900D48593 /* SYTHCalenderTool.m */; };
+		DBD2A3A22834814FA48E74CB4606FA04 /* SYCalander-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2ED460E2BA5485BD45C49F20E620C /* SYCalander-dummy.m */; };
+		E54CE2AE72079911126A1FF740438286 /* SYTHCalenderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBAEB9CF0A2281B580D67BA5E917AB /* SYTHCalenderTool.m */; };
 		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B18A01D223FC6CF8736DF3370BB2D08 /* NSArray+MASAdditions.m */; };
 		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733A0176012721A8AF6965BCDC2FBBD /* View+MASAdditions.m */; };
 /* End PBXBuildFile section */
@@ -100,6 +100,7 @@
 		060BAF219A661DE0ECD7496EB0547643 /* UIViewAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0845AC914D6AFAA482687B93DFBC377E /* Pods-SYCalander_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYCalander_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B8060A5B4E6E8FD87D8656816A894B8 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0BCBAEB9CF0A2281B580D67BA5E917AB /* SYTHCalenderTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYTHCalenderTool.m; sourceTree = "<group>"; };
 		0E2C4B5AB0B9B781180E84601C443120 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1250DF5F5F0F70441F723FAE67D5BF1F /* Pods-SYCalander_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYCalander_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A757EA87EAFD383F5CBA55ACA029FF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,7 +114,6 @@
 		2733A0176012721A8AF6965BCDC2FBBD /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		2782451ED63814A1672BDF0074CAA012 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		2D2E5D6884B5E6A5430E51F6AAA4F752 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		30AFFB5B54A485436EEC7162C1775E1F /* SYComonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYComonDefine.h; sourceTree = "<group>"; };
 		33C505A0DCAE4185DBDB342C591D3CDF /* Pods-SYCalander_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYCalander_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		344889C457FEC1FF42484A1ABF95CA0A /* Pods-SYCalander_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYCalander_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		348F100E39E87D8263828931D8873771 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -164,8 +164,7 @@
 		CDF60062581A0C224100C90C4DA748B8 /* SYCalander-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYCalander-umbrella.h"; sourceTree = "<group>"; };
 		D248DA47FFBE1C164BB0201267689DF1 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		D355A1F288B871D8036A138B41BA817A /* Pods-SYCalander_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYCalander_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E12AB7031ECDADC900D48593 /* SYTHCalenderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTHCalenderTool.h; sourceTree = "<group>"; };
-		E12AB7041ECDADC900D48593 /* SYTHCalenderTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTHCalenderTool.m; sourceTree = "<group>"; };
+		E01EDD98888A181C3C8C1526371757F2 /* SYTHCalenderTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYTHCalenderTool.h; sourceTree = "<group>"; };
 		E9625CD0967D8E4053D70D6A80E478F5 /* Pods-SYCalander_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYCalander_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EF6A1E3D9BFEFC9D912646EF45755B04 /* Pods-SYCalander_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYCalander_Tests-dummy.m"; sourceTree = "<group>"; };
 		F01699F013CF26D03A253F11A1DF71D7 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
@@ -177,16 +176,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		225DCE0D56884DD89917148243A9CB81 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EEF6CD76FCF178BF4E0640D32756D67 /* Foundation.framework in Frameworks */,
-				D67DD4ACF5881DBE029A52FB22F9E6E8 /* Masonry.framework in Frameworks */,
-				11D1CBB96829963DAF66794A2E84904C /* UIViewAdditions.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		439637164437E169C9999FB0A3B0B714 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +189,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				109A568470DB8FDDCC41C89C6E421B46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE7D718CEE3A554D38A1612C1B0778F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E3E84A1113BDA26FBD8EC837C05428 /* Foundation.framework in Frameworks */,
+				1A1960DAC371F3609AD2B131A7E3E3AB /* Masonry.framework in Frameworks */,
+				B9583E58D578C8A53AF86DF9E0171467 /* UIKit.framework in Frameworks */,
+				A3A79DB137FD5CC90DAADA091E72CD5E /* UIViewAdditions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +253,14 @@
 				C4F576806803F1E19543D810ECDE03DD /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		3CAF05622A0213FD8173E790C7446EF6 /* SYCalander */ = {
+			isa = PBXGroup;
+			children = (
+				D4D2EBFFCDF1E3C2675ECFAFD09D42FA /* Classes */,
+			);
+			path = SYCalander;
 			sourceTree = "<group>";
 		};
 		3E4F0F3DDA01301906895AC49318367E /* Pods-SYCalander_Example */ = {
@@ -352,14 +360,6 @@
 			path = "Example/Pods/Target Support Files/SYCalander";
 			sourceTree = "<group>";
 		};
-		7287253A9718EE4D0E769FF3E9E80E26 /* SYCalander */ = {
-			isa = PBXGroup;
-			children = (
-				93B06A8AD428E1128874F87B556510B1 /* Classes */,
-			);
-			path = SYCalander;
-			sourceTree = "<group>";
-		};
 		782655B20AA30D905DBD8064320BCA5F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,20 +385,10 @@
 			isa = PBXGroup;
 			children = (
 				6513E55FD2D906251176F629290DEBE3 /* Support Files */,
-				7287253A9718EE4D0E769FF3E9E80E26 /* SYCalander */,
+				3CAF05622A0213FD8173E790C7446EF6 /* SYCalander */,
 			);
 			name = SYCalander;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		93B06A8AD428E1128874F87B556510B1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				30AFFB5B54A485436EEC7162C1775E1F /* SYComonDefine.h */,
-				E12AB7031ECDADC900D48593 /* SYTHCalenderTool.h */,
-				E12AB7041ECDADC900D48593 /* SYTHCalenderTool.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		C83E7C266506BDF25EE8A88671355D55 /* Development Pods */ = {
@@ -407,6 +397,15 @@
 				91A439E095903BDEDE08833A249736C7 /* SYCalander */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D4D2EBFFCDF1E3C2675ECFAFD09D42FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E01EDD98888A181C3C8C1526371757F2 /* SYTHCalenderTool.h */,
+				0BCBAEB9CF0A2281B580D67BA5E917AB /* SYTHCalenderTool.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D8AB6F43D5BA0FD949DDA6403141AAE7 /* UIViewAdditions */ = {
@@ -452,16 +451,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2AAF154F50A786E94A9915A831FB185 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E12AB7051ECDADC900D48593 /* SYTHCalenderTool.h in Headers */,
-				C628891EB48B56B36AC9CEBEFCC57101 /* SYCalander-umbrella.h in Headers */,
-				CCB263C2B7897EC1372C32DDFF3FE199 /* SYComonDefine.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6B0098CF251226F2A9027010172DEE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -476,6 +465,15 @@
 			files = (
 				9EF1073034069017C890869B44874B16 /* UIView+RSAdditions.h in Headers */,
 				7D16C3F11D7349B35B5C4B704672922B /* UIViewAdditions-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86887523FF231B6F2CAA32300BCB577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279A3A90AAA747CE7AA7636B0E01D005 /* SYCalander-umbrella.h in Headers */,
+				0DAAF6E8A5C03A518B693DCE8897B32F /* SYTHCalenderTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,9 +507,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED998F3CD8A39230216B478B907DC664 /* Build configuration list for PBXNativeTarget "SYCalander" */;
 			buildPhases = (
-				CE5238CBFF34E5EF9A3CB869690058EC /* Sources */,
-				225DCE0D56884DD89917148243A9CB81 /* Frameworks */,
-				B2AAF154F50A786E94A9915A831FB185 /* Headers */,
+				B658407AA43F315CE0BE68A190EFC1A3 /* Sources */,
+				DCE7D718CEE3A554D38A1612C1B0778F /* Frameworks */,
+				E86887523FF231B6F2CAA32300BCB577 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -660,21 +658,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B658407AA43F315CE0BE68A190EFC1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD2A3A22834814FA48E74CB4606FA04 /* SYCalander-dummy.m in Sources */,
+				E54CE2AE72079911126A1FF740438286 /* SYTHCalenderTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7F1049F81716ED83CDD902B0B5E3DAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24DD747A9FD8627B58BFC6D6CE924306 /* UIView+RSAdditions.m in Sources */,
 				49EA6AE765CB1BA588F56E707BF0DA5C /* UIViewAdditions-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5238CBFF34E5EF9A3CB869690058EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E12AB7061ECDADC900D48593 /* SYTHCalenderTool.m in Sources */,
-				5F04BE487F0A70FD9647E1D013B740C6 /* SYCalander-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
