@@ -1,12 +1,14 @@
 //
-//  SYCalenderTool.m
+//  BMCalenderTool.m
+//  basicmap
 //
-//  Created by Linjunhou on 2016/11/18.
+//  Created by quke on 2016/11/18.
+//  Copyright © 2016年 baidu. All rights reserved.
 //
 
-#import "SYTHCalenderTool.h"
+#import "BMTHCalenderTool.h"
 
-@implementation SYTHCalenderTool
+@implementation BMTHCalenderTool
 
 /*
  * 判断两个日期是否是同一天

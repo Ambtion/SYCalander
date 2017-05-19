@@ -1,15 +1,16 @@
 //
-//  SYTripCalenderTool.m
+//  BMTripCalenderTool.m
+//  basicmap
 //
-//
-//  Created by Linjunhou on 2016/11/18.
+//  Created by quke on 2016/11/18.
+//  Copyright © 2016年 baidu. All rights reserved.
 //
 
-#import "SYTHTripCalenderTool.h"
-#import "SYTHCalenderTool.h"
-#import "SYTHCalenderModel.h"
+#import "BMTHTripCalenderTool.h"
+#import "BMTHCalenderTool.h"
+#import "BMTHCalenderModel.h"
 
-@implementation SYTHTripCalenderTool
+@implementation BMTHTripCalenderTool
 
 
 #pragma mark - WeekList
@@ -20,7 +21,7 @@
     NSString *dateString = [[NSString alloc] initWithFormat:@"%ld-%ld-%ld", (long)year,(long)month,(long)day];
     NSDate *date = [dateFormatter dateFromString:dateString];
     
-    NSInteger weekDay = [SYTHCalenderTool getWeekDayIndate:date];
+    NSInteger weekDay = [BMTHCalenderTool getWeekDayIndate:date];
     
     
     NSMutableArray * weekList = [NSMutableArray arrayWithCapacity:7];
@@ -34,7 +35,7 @@
         
         if(preDay <= 0){
             
-            preDay = [SYTHCalenderTool totalDaysOfMonthInYear:preYear Month:preMonth] + preDay;
+            preDay = [BMTHCalenderTool totalDaysOfMonthInYear:preYear Month:preMonth] + preDay;
             preMonth = month - 1;
             if(preMonth <= 0){
                 preMonth = 12;
@@ -52,7 +53,7 @@
     //当前日期
     [weekList addObject:[self dateModelWithYear:year month:month day:day withWeekDay:weekDay]];
     
-    NSInteger totalDays =  [SYTHCalenderTool totalDaysOfMonthInYear:year Month:month];
+    NSInteger totalDays =  [BMTHCalenderTool totalDaysOfMonthInYear:year Month:month];
 
     //当前日期后同一周补位
     for(int i = 0; i < 7 - weekDay - 1;i++){
@@ -117,8 +118,8 @@
 + (NSArray *)curMonthDaySpacingAtCurYear:(NSInteger)year Month:(NSInteger)month
 {
     //当前月份
-    NSInteger totalMouthDay = [SYTHCalenderTool totalDaysOfMonthInYear:year Month:month];
-    NSInteger firstWeekInMouth = [SYTHCalenderTool getWeekOfFirstDayOfyear:year withMonth:month];
+    NSInteger totalMouthDay = [BMTHCalenderTool totalDaysOfMonthInYear:year Month:month];
+    NSInteger firstWeekInMouth = [BMTHCalenderTool getWeekOfFirstDayOfyear:year withMonth:month];
 
     NSMutableArray * curDayList = [NSMutableArray arrayWithCapacity:totalMouthDay];
     for (NSInteger i = 0; i < totalMouthDay; i++) {
@@ -134,7 +135,7 @@
  */
 + (NSArray *)preMonthDaySpacingAtCurYear:(NSInteger)year Month:(NSInteger)month
 {
-    NSInteger firstWeekInMouth = [SYTHCalenderTool getWeekOfFirstDayOfyear:year withMonth:month];
+    NSInteger firstWeekInMouth = [BMTHCalenderTool getWeekOfFirstDayOfyear:year withMonth:month];
 
     //上一个月份
     NSInteger preYear = year;
@@ -145,7 +146,7 @@
         preYear = year - 1;
     }
     
-    NSInteger pTotalMouthDay = [SYTHCalenderTool totalDaysOfMonthInYear:preYear Month:preMonth];
+    NSInteger pTotalMouthDay = [BMTHCalenderTool totalDaysOfMonthInYear:preYear Month:preMonth];
     
     NSMutableArray * preDayLit = [NSMutableArray arrayWithCapacity:0];
     //上一个月补位
@@ -175,8 +176,8 @@
     
     NSMutableArray * nexDayList = [NSMutableArray arrayWithCapacity:0];
 
-    NSInteger totalMouthDay = [SYTHCalenderTool totalDaysOfMonthInYear:year Month:month];
-    NSInteger firstWeekInMouth = [SYTHCalenderTool getWeekOfFirstDayOfyear:year withMonth:month];
+    NSInteger totalMouthDay = [BMTHCalenderTool totalDaysOfMonthInYear:year Month:month];
+    NSInteger firstWeekInMouth = [BMTHCalenderTool getWeekOfFirstDayOfyear:year withMonth:month];
 
     //下一个月补位
     for(NSInteger i = 0; i < [self totalDaysInOnePage] - firstWeekInMouth - totalMouthDay;i++){
@@ -189,10 +190,10 @@
 
 
 #pragma mark DateModel
-+ (SYTHCalenderModel *)dateModelWithYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day withWeekDay:(NSInteger)weekDay
++ (BMTHCalenderModel *)dateModelWithYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day withWeekDay:(NSInteger)weekDay
 {
     
-    SYTHCalenderModel * model = [[SYTHCalenderModel alloc] init];
+    BMTHCalenderModel * model = [[BMTHCalenderModel alloc] init];
     model.year = year;
     model.month = month;
     model.day = day;

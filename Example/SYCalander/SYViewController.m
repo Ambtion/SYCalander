@@ -7,10 +7,10 @@
 //
 
 #import "SYViewController.h"
-//#import "BMHCCalenderCondtionView.h"
+#import "BMHCCalenderCondtionView.h"
 
 @interface SYViewController ()
-//@property(nonatomic,strong)BMHCCalenderCondtionView * dateConditonView;
+@property(nonatomic,strong)BMHCCalenderCondtionView * dateConditonView;
 
 @end
 
@@ -19,6 +19,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.dateConditonView = [[BMHCCalenderCondtionView alloc] initWithFrame:CGRectMake(0, NAVIGATION_BAR_HEIGHT, self.view.width, headViewHeigth)];
+    self.dateConditonView.delegate = self;
+    self.dateConditonView.dateSource = self;
+    [self.view addSubview:self.dateConditonView];
+    [self.dateConditonView setHidden:YES];
+
 }
 
 @end

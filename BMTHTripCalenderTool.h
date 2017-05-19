@@ -1,12 +1,14 @@
 //
-//  SYTHTripCalenderTool.h
+//  BMTHTripCalenderTool.h
+//  basicmap
 //
-//  Created by Linjunhou on 2016/11/18.
+//  Created by quke on 2016/11/18.
+//  Copyright © 2016年 baidu. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface SYTHTripCalenderTool : NSObject
+@interface BMTHTripCalenderTool : NSObject
 
 /*
  * 一页展示的天数 目前是 7 * 6

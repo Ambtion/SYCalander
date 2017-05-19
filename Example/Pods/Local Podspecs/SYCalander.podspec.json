@@ -13,10 +13,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "SYCalander/Classes/*.h",
+  "public_header_files": "SYCalander/*.h",
   "source_files": [
     "SYCalander",
-    "SYCalander/Classes/*.{h,m}"
+    "SYCalander/*.{h,m}"
   ],
   "dependencies": {
     "Masonry": [

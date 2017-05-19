@@ -1,10 +1,12 @@
 //
-//  SYTHCalenderModel.m
+//  BMTHCalenderModel.m
+//  basicmap
 //
-//  Created by Linjunhou on 2016/11/18.
+//  Created by quke on 2016/11/18.
+//  Copyright © 2016年 baidu. All rights reserved.
 //
 
-#import "SYTHCalenderModel.h"
+#import "BMTHCalenderModel.h"
 
 @implementation BMTHCalenderModel
 
